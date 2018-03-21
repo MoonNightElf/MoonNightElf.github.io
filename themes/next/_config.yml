@@ -228,10 +228,10 @@ link_icons:
   enable: true
   
   
-# Reward
-reward_comment: 卖身了，大爷们走过路过看看啦~
-wechatpay: /images/wechatpay_code.jpg
-alipay: /images/alipay_code.jpg
+# Reward 关闭打赏
+#reward_comment: 卖身了，大爷们走过路过看看啦~
+#wechatpay: /images/wechatpay_code.jpg
+#alipay: /images/alipay_code.jpg
   
 # ---------------------------------------------------------------
 # Post Settings
