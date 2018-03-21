@@ -1,0 +1,73 @@
+.site-nav {
+  border-top: none;
+
+  +tablet() {
+    display: none !important;
+  }
+}
+
+.site-nav-on {
+  +tablet() {
+    display: block !important;
+  }
+}
+
+.menu .menu-item {
+  display: block;
+  margin: 0;
+
+  a {
+    position: relative;
+    box-sizing: border-box;
+    padding: 5px 20px;
+    text-align: left;
+	color: #000; /*字体颜色为黑色*/
+    line-height: inherit;
+    transition-property: background-color;
+    the-transition();
+
+    &:hover {
+	  color: #fff;  /*鼠标悬停后字体颜色*/
+      background: #000;
+      border-bottom-color: white;
+    }
+  }
+
+  br { display: none; }
+}
+
+.menu-item-active a {
+  /*@extend .menu .menu-item a:hover;*/
+
+  /*选中后item颜色*/
+  background: #f9f9f9;
+  border-bottom-color: white;
+  
+  &:after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+    right: 15px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: $grey;
+  }
+}
+
+.btn-bar {
+  background-color: white;
+}
+
+.site-nav-toggle {
+  left: 20px;
+  top: 50%;
+
+  -webkit-transform:  translateY(-50%);
+  transform:  translateY(-50%);
+
+  +tablet() {
+    display: block;
+  }
+}
