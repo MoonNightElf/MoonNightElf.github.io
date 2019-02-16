@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Mr.Wang&#39;s Blog</title>
+  
+  <subtitle>0 ever youthful,0 ever weeping.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-02-16T02:52:00.695Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>王泽鑫</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/02/16/hello-world/"/>
+    <id>http://yoursite.com/2019/02/16/hello-world/</id>
+    <published>2019-02-16T02:52:00.695Z</published>
+    <updated>2019-02-16T02:52:00.695Z</updated>
+    
+    <content type="html"><![CDATA[<p>惯例 Hello World！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;惯例 Hello World！&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="hello" scheme="http://yoursite.com/categories/hello/"/>
+    
+    
+      <category term="hello" scheme="http://yoursite.com/tags/hello/"/>
+    
+  </entry>
+  
+</feed>
